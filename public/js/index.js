@@ -1,0 +1,1 @@
+Vue.component('index', {data:function(){return {tieude:'duong dai ca'}},template:`<div>this app index {{tieude}}</div>`});Vue.component('nav', {data:function(){return {name:'navi '}},template:`<v-card>this navi {{name}}</v-card>`});const app = new Vue({el: '#app',vuetify: new Vuetify(),});

@@ -1,0 +1,1 @@
+Vue.component('nav', {data:function(){return {name:'navi '}},template:`<v-card>this navi {{name}}</v-card>`});
